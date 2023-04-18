@@ -1,7 +1,7 @@
 // aula 24 
 // 1ª funcao = substitui o for (laços) - mas somente em arrays
 const array = [1, 5, 4, 3, 10, 7, 8, 20, 12]
-// forEach(paraCada) PASSA POR TODOS ELEMENTOS DO ARRAY = onde sempre o 1º paramentro é o elemento do array e o 2º param é a posicao - consegue fazer o for in e for of ao mesmo tempo
+// forEach(paraCada) PASSA POR TODOS ELEMENTOS DO ARRAY = onde sempre o 1º paramentro é o elemento do array e o 2º param é a posicao - consegue fazer o for in e for of ao mesmo tempo.
 array.forEach((elem, pos) => {
   console.log(`${elem} está na posição ${pos}`)
 }) // ______________________________________ 

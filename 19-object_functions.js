@@ -27,5 +27,5 @@ const livros ={
 const values = Object.values(livros)//values = [19.90, 97.00, 20.00]
 const sum = values.reduce((val,acc)=>{
   return val+acc
-}, 0) // iniciando a soma em 0
+}, 0) // iniciando a soma em 0 - ACUMULADO INICIAL
 console.log(sum)
